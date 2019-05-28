@@ -3,7 +3,6 @@ from .redis import RedisSessionInterface
 from .memory import InMemorySessionInterface
 from .mongodb import MongoDBSessionInterface
 from .aioredis import AIORedisSessionInterface
-from .base import BaseSessionInterface
 
 __all__ = ('MemcacheSessionInterface', 'RedisSessionInterface',
            'InMemorySessionInterface', 'MongoDBSessionInterface',
